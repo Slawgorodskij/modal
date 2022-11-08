@@ -11,7 +11,9 @@
 }
 
 .modal__container{
-    padding: 1rem;
+    padding: 0 2.5rem;
+    display: grid;
+    grid-template-rows: 0.2fr auto 0.3fr;
     width: 65vw;
     height: 50vh;
     background-color: #fff;
@@ -22,4 +24,27 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1vh;
+}
+
+.modal__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+
+.modal__button{
+    padding: 1rem;
+    width: 12vw;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.modal__button_color{
+    margin-right: 1rem;
+    color: #fff;
+    background-color: #202f5e;
 }
